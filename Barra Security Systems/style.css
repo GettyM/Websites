@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
+.logo{
+  background-color: blue;
+ }
+ .logo img {
+   height: 70px;
+   width: auto;
+ }
+
+.navbar {
+  display: flex;
+  height: 70px;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+} 
+.navbar ul li {
+  margin-left: 10px;
+}
+
+#slider {
+  height: 25vh;
+  display: block;
+}
+#carouselExampleIndicators {
+  height: 100%;
+  display: inherit;
+}
